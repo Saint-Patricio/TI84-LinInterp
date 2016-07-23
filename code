@@ -1,0 +1,14 @@
+Program: Interp1
+:
+:Input "X1",A
+:Input "Y1",B
+:Input "X2",C
+:Input "Y2",D
+:
+:Disp "YOUR VAL:"
+:Input "XV=",Z
+:
+:B+(D-B)*((Z-A)/(C-A))->V
+:
+:DISP "YV=",V
+:
